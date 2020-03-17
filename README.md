@@ -141,9 +141,9 @@ import configStore from './store';
 const store = configStore();
 
 const RNRedux = () => (
-    "<Provider store={store}>
+    <Provider store={store}>
         <App />
-    </Provider>"
+    </Provider>
 )
 
 AppRegistry.registerComponent(appName, () => RNRedux);	
