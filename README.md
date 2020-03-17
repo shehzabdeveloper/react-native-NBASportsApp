@@ -3,18 +3,18 @@ Reference links:
 
 # React-native Basic Intro
 
-1> To create new project:
+# 1> To create new project:\n
 npx react-native init <application-name>
 
-2>To run project:
+# 2>To run project:\n
 npx react-native run-android/run-ios (to run in simulator)
 Or
 	npx react-native start
 adb reverse tcp:8081 tcp:8081
 
-3>Stylesheet reference link: https://reactnative.dev/docs/style
+# 3>Stylesheet reference link: https://reactnative.dev/docs/style
 
-4>Navigation reference link: https://reactnavigation.org/docs/getting-started/
+# 4>Navigation reference link: https://reactnavigation.org/docs/getting-started/
 Required dependencies:
 	@react-navigation/native
 
@@ -55,7 +55,7 @@ cd android &&./gradlew clean
 cd .. && react-native run-android
 (alternative way using android studio)
 
-5>Redux reference link: https://appdividend.com/2018/08/04/react-native-redux-example-tutorial/
+# 5>Redux reference link: https://appdividend.com/2018/08/04/react-native-redux-example-tutorial/
 
 Install → redux react-redux redux-thunk
 Add types and reducers
@@ -70,7 +70,7 @@ export const getApiAction = (response) => {
     }
 }
 
-Reducers
+# Reducers
 
 import { GET_API } from '../actions/types';
 
@@ -93,7 +93,7 @@ const gameReducer = (state = initailState, action) => {
 export default gameReducer;
 
 
-Network folder
+# Network folder
 
 import { getApiAction } from '../actions/types';
 
@@ -117,7 +117,7 @@ export const getGameList = () => {
     }
 }
 
-Create redux store (store.js)
+# Create redux store (store.js)
 
 import { createStore, combineReducers } from 'redux';
 import gameReducer from './reducers/gameReducer';
