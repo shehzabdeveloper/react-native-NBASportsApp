@@ -133,7 +133,7 @@ const configStore = () => {
 
 export default configStore;
 
-Pass store to the native app(index.js):
+# Pass store to the native app(index.js):
 
 import { Provider } from 'react-redux';
 import configStore from './store';
@@ -149,7 +149,7 @@ const RNRedux = () => (
 AppRegistry.registerComponent(appName, () => RNRedux);	
 
 	
-Connect react-native to the redux store(App.js):
+# Connect react-native to the redux store(App.js):
 
 const mapStateToProps = state => {
   return {
