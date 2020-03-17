@@ -3,10 +3,10 @@ Reference links:
 
 # React-native Basic Intro
 
-# 1> To create new project:\n
+# 1> To create new project:
 npx react-native init <application-name>
 
-# 2>To run project:\n
+# 2>To run project:
 npx react-native run-android/run-ios (to run in simulator)
 Or
 	npx react-native start
